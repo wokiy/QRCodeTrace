@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"></constant>
+	<!--  指定显示的错误信息的编码格式，注意这个编码应该跟你的回显的页面的格式是一致的  -->
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <!-- 将错误消息转换成中文的文件，也称为国际化.我就直接放置在src目录下所以value不带包名 -->
+    <constant name="struts.custom.i18n.resources" value="messages_zh_CN" />
+    <constant name="struts.multipart.maxSize" value="4294967296"></constant>
+    
+    <!-- 后台 -->
+	<package name="com.jackdaw.backend" extends="struts-default" namespace="/admin">
+		
+		
+		<interceptors>
+			<interceptor name="sessionInterceptor" class="com.jackdaw.interceptor.SessionInterceptor"></interceptor>
+		</interceptors>
+		
+		<!-- 用法与通配符冲突 -->
+		<!--  <default-action-ref name="index"></default-action-ref> -->
+		
+		<!-- 产品文件	添加-->
+		<action name="Product_productSave" class="com.jackdaw.action.ProductAction" method="productSave">
+	       
+			<interceptor-ref name="token">
+				<!-- 指定拦截哪些方法需要防止表单重复提交(save) -->
+				<param name="includeMethods">productSave</param>
+			</interceptor-ref>
+			<interceptor-ref name="sessionInterceptor"></interceptor-ref>
+			<interceptor-ref name="fileUpload">
+	       		 <param name="allowedTypes">image/bmp,image/png,image/gif,image/jpeg</param>
+	       		 <param name="maximumSize">2097151</param>
+	       	</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			
+			<exception-mapping result="notFoundException" exception="java.lang.ClassNotFoundException"></exception-mapping>
+			
+			<result name="invalid.token" type="redirectAction">Product_productInfoShow</result>
+			<result name="success" type="redirectAction">Product_productInfoShow</result>
+			<result name="input" type="redirectAction">Product_addInput</result>
+			<result name="error">/error/error.jsp</result>
+		</action>
+		
+		<!-- 产品文件	修改-->
+		<action name="Product_productUpdate" class="com.jackdaw.action.ProductAction" method="productUpdate">
+			
+			<interceptor-ref name="token">
+				<!-- 指定拦截哪些方法需要防止表单重复提交(save) -->
+				<param name="includeMethods">productUpdate</param>
+			</interceptor-ref>
+			<interceptor-ref name="sessionInterceptor"></interceptor-ref>
+			<interceptor-ref name="fileUpload">
+	       		 <param name="allowedTypes">image/bmp,image/png,image/gif,image/jpeg</param>
+	       		 <param name="maximumSize">2097151</param>
+	       	</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			
+			<result name="invalid.token" type="redirectAction">Product_productInfoShow</result>
+			<result name="success" type="redirectAction">Product_productInfoShow</result>
+			<!-- 地址有参数的可用${Parameter} -->
+			<result name="input" type="redirectAction">Product_updateInput?id=${id}</result>
+			<result name="error">/error/error.jsp</result>
+		</action>
+		
+		<action name="*_*" class="com.jackdaw.action.{1}Action" method="{2}">
+			<interceptor-ref name="token">
+				<!-- 指定拦截哪些方法需要防止表单重复提交(save) -->
+				<param name="includeMethods">
+				materialSave,materialUpdate,processSave,processUpdate,tansportSave,transportUpdate,sellSave,
+				sellUpdate,companyUpdate,newsSave,newsUpdate,userSave,userUpdate,projectSave,projectUpdate</param>
+			</interceptor-ref>
+			<interceptor-ref name="sessionInterceptor"></interceptor-ref>
+			
+			<interceptor-ref name="fileUpload">
+	       		 <param name="allowedTypes">image/bmp,image/png,image/gif,image/jpeg</param>
+	       		 <param name="maximumSize">2097151</param>
+	       	</interceptor-ref>
+			
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<!-- 异常处理-->
+			<exception-mapping result="notFoundException" exception="java.lang.Exception"></exception-mapping>
+			<result name="notFoundException">/error/not_found.jsp</result>
+			 
+			<result name="invalid.token" type="redirectAction">Product_productInfoShow</result>
+			
+			<result name="input">/WEB-INF/admin/{1}_{2}.jsp</result>
+			<result name="success">/WEB-INF/admin/{1}_{2}.jsp</result>
+			
+			<!-- 添加/修改/删除 操作成功后跳转的页面 -->
+			<result name="materialSuccess" type="redirectAction">Product_materialInfoShow</result>
+			<result name="materialSearchSuccess">/WEB-INF/admin/Product_materialInfoShow.jsp</result>
+			
+			<result name="processSuccess" type="redirectAction">Product_processInfoShow</result>
+			<result name="processSearchSuccess">/WEB-INF/admin/Product_processInfoShow.jsp</result>
+			
+			<result name="transportSuccess" type="redirectAction">Product_transportInfoShow</result>
+			<result name="transportSearchSuccess">/WEB-INF/admin/Product_transportInfoShow.jsp</result>
+			
+			<result name="sellSuccess" type="redirectAction">Product_sellInfoShow</result>
+			<result name="sellSearchSuccess">/WEB-INF/admin/Product_sellInfoShow.jsp</result>
+			
+			<result name="companySuccess" type="redirectAction">Company_updateInput</result>
+			<result name="newsSuccess" type="redirectAction">News_newsInfoShow</result>
+			<result name="commentSuccess" type="redirectAction">Comment_commentInfoShow</result>
+			<result name="userSuccess" type="redirectAction">User_userInfoShow</result>
+			<result name="userSearchResult">/WEB-INF/admin/User_userInfoShow.jsp</result>
+			<result name="projectSuccess" type="redirectAction">Project_projectInfoShow</result>
+			<result name="projectSearchSuccess">/WEB-INF/admin/Project_projectInfoShow.jsp</result>
+			
+			<result name="productSuccess" type="redirectAction">Product_productInfoShow</result>
+			<result name="productSearchSuccess">/WEB-INF/admin/Product_productInfoShow.jsp</result>
+			<result name="productQRCodeSuccess">/WEB-INF/admin/Product_productQRCode.jsp</result>
+			<result name="imgChangeSUCCESS" type="redirectAction">Company_frontendInfoShow</result>
+			
+			<result name="productQRCodeDownload" type="stream">
+				<param name="contentType">application/octet-stream</param>
+				<!--返回的流  (用属性表示)-->
+				<param name="inputName">attrInputStream</param>
+				<!-- 相应头的相关设置:浏览器下载时的名称  这里的 ${}不是EL表达式,而是struts用于在配置文件查找action中属性的表达式-->
+				<param name="contentDisposition">attachment;filename="${downFileName}"</param>
+				<!-- 缓冲区 -->
+				<param name="bufferSize">1024</param>
+			</result>
+			
+			<result name="productQRCodeBatchDownload" type="stream">
+				<param name="contentType">application/octet-stream</param>
+				<!--返回的流  (用属性表示)-->
+				<param name="inputName">batchInputStream</param>
+				<!-- 相应头的相关设置:浏览器下载时的名称  这里的 ${}不是EL表达式,而是struts用于在配置文件查找action中属性的表达式-->
+				<param name="contentDisposition">attachment;filename="${batchDownFileName}"</param>
+				<!-- 缓冲区 -->
+				<param name="bufferSize">1024</param>
+			</result>
+			
+			<!-- 发生可用异常跳转页面 -->
+			<result name="userAddFail">/WEB-INF/admin/User_addInput.jsp</result>
+			<result name="projectAddFail">/WEB-INF/admin/Project_addInput.jsp</result>
+			
+			<result name="index">/WEB-INF/admin/index.jsp</result>
+			<result name="error">/error/error.jsp</result>
+			
+			<!-- 不同权限登陆时跳转到不同页面 -->
+			<result name="loginMaterialRole" type="redirectAction">Product_materialInfoShow</result>			
+			<result name="loginProcessRole" type="redirectAction">Product_processInfoShow</result>			
+			<result name="loginTransportRole" type="redirectAction">Product_transportInfoShow</result>			
+			<result name="loginSellRole" type="redirectAction">Product_sellInfoShow</result>
+			
+			<result name="loginOutSuccess" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">#</param>  
+			</result>
+		</action>
+		<!--  
+		<action name="index">
+			<result>/WEB-INF/admin/index.jsp</result>
+		</action>
+		-->
+	</package>
+	
+	<!-- 前台 -->
+	<package name="com.jackdaw.frontend" extends="struts-default">
+		<interceptors>
+			<interceptor name="sessionInterceptor" class="com.jackdaw.interceptor.SessionInterceptor"></interceptor>
+		</interceptors>
+		
+		<action name="*_*" class="com.jackdaw.action.{1}Action" method="{2}">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<interceptor-ref name="token">
+				<!-- 指定拦截哪些方法需要防止表单重复提交(save) -->
+				<param name="includeMethods">commentSave
+				</param>
+			</interceptor-ref>
+			
+			<interceptor-ref name="sessionInterceptor"></interceptor-ref>
+			
+			<result name="invalid.token" type="redirectAction">#</result>
+			
+			<result name="input">/WEB-INF/frontend/{1}_{2}.jsp</result>
+			<result name="success">/WEB-INF/frontend/{1}_{2}.jsp</result>
+			<result name="index">/WEB-INF/frontend/index.jsp</result>
+			<result name="productNotFound" type="redirectAction">#</result>
+			<result name="commentFailed" type="redirectAction">Comment_commentInfoShow</result>
+			<result name="loginSuccess" type="redirectAction">admin/</result>
+			<result name="loginFailed" type="redirectAction">#</result>
+			<result name="error">/error/error.jsp</result>
+			
+					
+			<!-- 二维码显示产品信息界面 发送投诉信息(评论) -->
+			<result name="commentSuccess" type="redirectAction">Comment_commentInfoShow</result>
+		</action>
+	</package>
+</struts>

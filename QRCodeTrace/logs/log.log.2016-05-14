@@ -1,0 +1,177 @@
+2016-05-14 20:45:26  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-14 20:45:26  [ main:13 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-14 20:45:26  [ main:15 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-14 20:45:26  [ main:20 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-14 20:45:26  [ main:61 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-14 20:45:26  [ main:61 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-14 20:45:26  [ main:241 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-14 20:45:27  [ main:391 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-14 20:45:27  [ main:400 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-14 20:45:27  [ main:401 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-14 20:45:27  [ main:402 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-14 20:45:27  [ main:405 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-14 20:45:27  [ main:817 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-05-14 20:45:27  [ main:1134 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-14 20:45:27  [ main:1140 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-14 20:45:28  [ main:1870 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-05-14 20:45:28  [ main:1872 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-05-14 20:45:28  [ main:1874 ] - [ INFO ]  HHH000396: Updating schema
+2016-05-14 20:45:28  [ main:1898 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_comment
+2016-05-14 20:45:28  [ main:1899 ] - [ INFO ]  HHH000037: Columns: [date, product_id, id, content]
+2016-05-14 20:45:28  [ main:1899 ] - [ INFO ]  HHH000108: Foreign keys: [fk_6xd3ec04csqnot2guhbykunj0]
+2016-05-14 20:45:28  [ main:1899 ] - [ INFO ]  HHH000126: Indexes: [fk_6xd3ec04csqnot2guhbykunj0, primary]
+2016-05-14 20:45:28  [ main:1953 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_company
+2016-05-14 20:45:28  [ main:1954 ] - [ INFO ]  HHH000037: Columns: [address, phone, name, id, fax, email, introduction]
+2016-05-14 20:45:28  [ main:1954 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:1954 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:1962 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_material
+2016-05-14 20:45:28  [ main:1963 ] - [ INFO ]  HHH000037: Columns: [qulity, animalcule, fertilization, heavy_metal, pesticide, company_name, medicine, id, nitrate]
+2016-05-14 20:45:28  [ main:1963 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:1963 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:1968 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_news
+2016-05-14 20:45:28  [ main:1969 ] - [ INFO ]  HHH000037: Columns: [date, id, title, content]
+2016-05-14 20:45:28  [ main:1969 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:1969 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:1977 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_process
+2016-05-14 20:45:28  [ main:1978 ] - [ INFO ]  HHH000037: Columns: [refrigerator_temperature, animalcule, method, company_name, id, packing, workshop_temperature, storage_time]
+2016-05-14 20:45:28  [ main:1978 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:1978 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:1991 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_product
+2016-05-14 20:45:28  [ main:1992 ] - [ INFO ]  HHH000037: Columns: [process_id, sell_id, name, transport_id, material_id, id, pic]
+2016-05-14 20:45:28  [ main:1992 ] - [ INFO ]  HHH000108: Foreign keys: [fk_qa0tyyyr494ii27v9xtb2is3m, fk_n7hsms861b7k07u0qmg7dc8iv, fk_ibivi9824d434wr7ospoivby3, fk_qqa6gn9u9xgsei4deabftpbu0]
+2016-05-14 20:45:28  [ main:1992 ] - [ INFO ]  HHH000126: Indexes: [fk_qa0tyyyr494ii27v9xtb2is3m, fk_n7hsms861b7k07u0qmg7dc8iv, fk_ibivi9824d434wr7ospoivby3, fk_qqa6gn9u9xgsei4deabftpbu0, primary]
+2016-05-14 20:45:28  [ main:2003 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_sell
+2016-05-14 20:45:28  [ main:2003 ] - [ INFO ]  HHH000037: Columns: [disinfection, in_charge_phone, allergy, in_charge_person, purchase_count, logal_person, stock_person, license, nutrition, stock_phone, company_name, examination, temperature, humidity, id, exam_person, purchase_date]
+2016-05-14 20:45:28  [ main:2004 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:2004 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:2021 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_transport
+2016-05-14 20:45:28  [ main:2021 ] - [ INFO ]  HHH000037: Columns: [legal_person, arrival_time, disinfection, goods_count, person_in_charge, car_type, phone, company_name, temperature, humidity, id, goods_type, departure_time, place_from, place_to]
+2016-05-14 20:45:28  [ main:2022 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:2022 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:2030 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_user
+2016-05-14 20:45:28  [ main:2031 ] - [ INFO ]  HHH000037: Columns: [password, address, role, phone, user_name, real_name]
+2016-05-14 20:45:28  [ main:2031 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:45:28  [ main:2031 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:45:28  [ main:2033 ] - [ INFO ]  HHH000232: Schema update complete
+2016-05-14 20:46:15  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-14 20:46:15  [ main:12 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-14 20:46:15  [ main:15 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-14 20:46:15  [ main:19 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-14 20:46:16  [ main:59 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-14 20:46:16  [ main:60 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-14 20:46:16  [ main:187 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-14 20:46:16  [ main:322 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-14 20:46:16  [ main:345 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-14 20:46:16  [ main:346 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-14 20:46:16  [ main:347 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-14 20:46:16  [ main:349 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-14 20:46:16  [ main:761 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-05-14 20:46:17  [ main:1083 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-14 20:46:17  [ main:1089 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-14 20:46:17  [ main:1858 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-05-14 20:46:17  [ main:1859 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-05-14 20:46:17  [ main:1861 ] - [ INFO ]  HHH000396: Updating schema
+2016-05-14 20:46:17  [ main:1889 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_comment
+2016-05-14 20:46:17  [ main:1890 ] - [ INFO ]  HHH000037: Columns: [date, product_id, id, content]
+2016-05-14 20:46:17  [ main:1890 ] - [ INFO ]  HHH000108: Foreign keys: [fk_6xd3ec04csqnot2guhbykunj0]
+2016-05-14 20:46:17  [ main:1891 ] - [ INFO ]  HHH000126: Indexes: [fk_6xd3ec04csqnot2guhbykunj0, primary]
+2016-05-14 20:46:17  [ main:1899 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_company
+2016-05-14 20:46:17  [ main:1899 ] - [ INFO ]  HHH000037: Columns: [address, phone, name, id, fax, email, introduction]
+2016-05-14 20:46:17  [ main:1900 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1900 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1908 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_material
+2016-05-14 20:46:17  [ main:1908 ] - [ INFO ]  HHH000037: Columns: [qulity, animalcule, fertilization, heavy_metal, pesticide, company_name, medicine, id, nitrate]
+2016-05-14 20:46:17  [ main:1908 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1908 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1913 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_news
+2016-05-14 20:46:17  [ main:1914 ] - [ INFO ]  HHH000037: Columns: [date, id, title, content]
+2016-05-14 20:46:17  [ main:1914 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1914 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1921 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_process
+2016-05-14 20:46:17  [ main:1922 ] - [ INFO ]  HHH000037: Columns: [refrigerator_temperature, animalcule, method, company_name, id, packing, workshop_temperature, storage_time]
+2016-05-14 20:46:17  [ main:1922 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1922 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1934 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_product
+2016-05-14 20:46:17  [ main:1934 ] - [ INFO ]  HHH000037: Columns: [process_id, sell_id, name, transport_id, material_id, id, pic]
+2016-05-14 20:46:17  [ main:1935 ] - [ INFO ]  HHH000108: Foreign keys: [fk_qa0tyyyr494ii27v9xtb2is3m, fk_n7hsms861b7k07u0qmg7dc8iv, fk_ibivi9824d434wr7ospoivby3, fk_qqa6gn9u9xgsei4deabftpbu0]
+2016-05-14 20:46:17  [ main:1936 ] - [ INFO ]  HHH000126: Indexes: [fk_qa0tyyyr494ii27v9xtb2is3m, fk_n7hsms861b7k07u0qmg7dc8iv, fk_ibivi9824d434wr7ospoivby3, fk_qqa6gn9u9xgsei4deabftpbu0, primary]
+2016-05-14 20:46:17  [ main:1948 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_sell
+2016-05-14 20:46:17  [ main:1951 ] - [ INFO ]  HHH000037: Columns: [disinfection, in_charge_phone, allergy, in_charge_person, purchase_count, logal_person, stock_person, license, nutrition, stock_phone, company_name, examination, temperature, humidity, id, exam_person, purchase_date]
+2016-05-14 20:46:17  [ main:1951 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1953 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1962 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_transport
+2016-05-14 20:46:17  [ main:1963 ] - [ INFO ]  HHH000037: Columns: [legal_person, arrival_time, disinfection, goods_count, person_in_charge, car_type, phone, company_name, temperature, humidity, id, goods_type, departure_time, place_from, place_to]
+2016-05-14 20:46:17  [ main:1963 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1963 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1972 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_user
+2016-05-14 20:46:17  [ main:1973 ] - [ INFO ]  HHH000037: Columns: [password, address, role, phone, user_name, real_name]
+2016-05-14 20:46:17  [ main:1973 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-14 20:46:17  [ main:1974 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-14 20:46:17  [ main:1975 ] - [ INFO ]  HHH000232: Schema update complete
+2016-05-14 20:58:17  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-14 20:58:17  [ main:104 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-14 20:58:17  [ main:107 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-14 20:58:17  [ main:109 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-14 20:58:17  [ main:149 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-14 20:58:17  [ main:149 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-14 20:58:17  [ main:332 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-14 20:58:18  [ main:490 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-14 20:58:18  [ main:499 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-14 20:58:18  [ main:500 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-14 20:58:18  [ main:500 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-14 20:58:18  [ main:502 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-14 20:58:18  [ main:934 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-05-14 20:58:18  [ main:1283 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-14 20:58:18  [ main:1291 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-14 20:58:19  [ main:2130 ] - [ INFO ]  HHH000227: Running hbm2ddl schema export
+2016-05-14 20:58:19  [ main:2161 ] - [ ERROR ]  HHH000389: Unsuccessful: alter table t_comment drop foreign key FK_6xd3ec04csqnot2guhbykunj0
+2016-05-14 20:58:19  [ main:2161 ] - [ ERROR ]  Table 'qrcode_trace.t_comment' doesn't exist
+2016-05-14 20:58:19  [ main:2162 ] - [ ERROR ]  HHH000389: Unsuccessful: alter table t_material drop foreign key FK_3j8m15okbotu6qd3ibnrr42ny
+2016-05-14 20:58:19  [ main:2163 ] - [ ERROR ]  Table 'qrcode_trace.t_material' doesn't exist
+2016-05-14 20:58:19  [ main:2164 ] - [ ERROR ]  HHH000389: Unsuccessful: alter table t_process drop foreign key FK_ofrgwku1rl2tisk046wa1eywo
+2016-05-14 20:58:19  [ main:2164 ] - [ ERROR ]  Table 'qrcode_trace.t_process' doesn't exist
+2016-05-14 20:58:19  [ main:2165 ] - [ ERROR ]  HHH000389: Unsuccessful: alter table t_product drop foreign key FK_lm78rbnxev0l9fxp635fw1i1v
+2016-05-14 20:58:19  [ main:2165 ] - [ ERROR ]  Table 'qrcode_trace.t_product' doesn't exist
+2016-05-14 20:58:19  [ main:2166 ] - [ ERROR ]  HHH000389: Unsuccessful: alter table t_sell drop foreign key FK_ricqr45e37wf507c9dq82n6ox
+2016-05-14 20:58:19  [ main:2166 ] - [ ERROR ]  Table 'qrcode_trace.t_sell' doesn't exist
+2016-05-14 20:58:19  [ main:2167 ] - [ ERROR ]  HHH000389: Unsuccessful: alter table t_transport drop foreign key FK_hbhfyypxu1ecu7bn9j20ihf54
+2016-05-14 20:58:19  [ main:2168 ] - [ ERROR ]  Table 'qrcode_trace.t_transport' doesn't exist
+2016-05-14 20:58:27  [ main:9477 ] - [ INFO ]  HHH000230: Schema export complete
+2016-05-14 21:00:25  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-14 21:00:25  [ main:14 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-14 21:00:25  [ main:18 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-14 21:00:25  [ main:20 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-14 21:00:25  [ main:66 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-14 21:00:25  [ main:66 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-14 21:00:25  [ main:206 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-14 21:00:25  [ main:360 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-14 21:00:25  [ main:371 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-14 21:00:25  [ main:372 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-14 21:00:25  [ main:372 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-14 21:00:25  [ main:375 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-14 21:00:25  [ main:801 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-05-14 21:00:26  [ main:1144 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-14 21:00:26  [ main:1150 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-14 21:00:27  [ main:1955 ] - [ INFO ]  HHH000227: Running hbm2ddl schema export
+2016-05-14 21:00:28  [ main:2988 ] - [ ERROR ]  HHH000389: Unsuccessful: drop table if exists t_material
+2016-05-14 21:00:28  [ main:2988 ] - [ ERROR ]  Cannot delete or update a parent row: a foreign key constraint fails
+2016-05-14 21:00:30  [ main:5014 ] - [ ERROR ]  HHH000389: Unsuccessful: create table t_material (id integer not null auto_increment, animalcule varchar(255), company_name varchar(255), fertilization varchar(255), heavy_metal varchar(255), medicine varchar(255), nitrate varchar(255), pesticide varchar(255), qulity varchar(255), product_id varchar(255), primary key (id))
+2016-05-14 21:00:30  [ main:5015 ] - [ ERROR ]  Table 't_material' already exists
+2016-05-14 21:00:36  [ main:11867 ] - [ INFO ]  HHH000230: Schema export complete
+2016-05-14 21:14:12  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-14 21:14:12  [ main:15 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-14 21:14:12  [ main:17 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-14 21:14:12  [ main:21 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-14 21:14:12  [ main:56 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-14 21:14:12  [ main:57 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-14 21:14:12  [ main:205 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-14 21:14:13  [ main:376 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-14 21:14:13  [ main:386 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-14 21:14:13  [ main:386 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-14 21:14:13  [ main:387 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-14 21:14:13  [ main:390 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-14 21:14:13  [ main:812 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-05-14 21:14:13  [ main:1140 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-14 21:14:13  [ main:1149 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-14 21:14:14  [ main:1953 ] - [ INFO ]  HHH000227: Running hbm2ddl schema export
+2016-05-14 21:14:24  [ main:11389 ] - [ INFO ]  HHH000230: Schema export complete

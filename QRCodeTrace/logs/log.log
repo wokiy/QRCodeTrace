@@ -1,0 +1,338 @@
+2016-05-17 15:39:44  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:39:44  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:39:44  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:39:44  [ main:11 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:39:44  [ main:26 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:39:44  [ main:26 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:42:12  [ main:1 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:42:12  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:42:12  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:42:12  [ main:11 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:42:12  [ main:26 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:42:12  [ main:27 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:44:36  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:44:36  [ main:10 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:44:36  [ main:13 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:44:36  [ main:16 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:44:36  [ main:34 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:44:36  [ main:35 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:45:11  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:45:11  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:45:11  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:45:11  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:45:11  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:45:11  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:47:29  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:47:29  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:47:29  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:47:29  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:47:29  [ main:25 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:47:29  [ main:25 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:47:29  [ main:82 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 15:47:29  [ main:149 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 15:47:29  [ main:153 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 15:47:29  [ main:154 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 15:47:29  [ main:154 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 15:47:29  [ main:155 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 15:51:44  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:51:44  [ main:6 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:51:44  [ main:7 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:51:44  [ main:8 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:51:44  [ main:23 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:51:44  [ main:23 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:51:44  [ main:82 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 15:51:44  [ main:150 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 15:51:44  [ main:156 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 15:51:44  [ main:156 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 15:51:44  [ main:157 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 15:51:44  [ main:158 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 15:56:45  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:56:45  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:56:45  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:56:45  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:56:45  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:56:45  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:56:45  [ main:87 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 15:56:45  [ main:158 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 15:56:45  [ main:163 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 15:56:45  [ main:163 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 15:56:45  [ main:164 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 15:56:45  [ main:165 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 15:57:16  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:57:16  [ main:5 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:57:16  [ main:7 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:57:16  [ main:9 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:57:16  [ main:22 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:57:16  [ main:22 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:57:16  [ main:76 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 15:57:16  [ main:139 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 15:57:16  [ main:144 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 15:57:16  [ main:144 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 15:57:16  [ main:145 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 15:57:16  [ main:146 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 15:58:55  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 15:58:55  [ main:8 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 15:58:55  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 15:58:55  [ main:11 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 15:58:55  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 15:58:55  [ main:25 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 15:58:55  [ main:83 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 15:58:55  [ main:151 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 15:58:55  [ main:157 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 15:58:55  [ main:157 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 15:58:55  [ main:158 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 15:58:55  [ main:159 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:00:44  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:00:44  [ main:5 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:00:44  [ main:7 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:00:44  [ main:8 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:00:44  [ main:23 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:00:44  [ main:23 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:00:44  [ main:82 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:00:44  [ main:146 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:00:44  [ main:151 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:00:44  [ main:151 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:00:44  [ main:151 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:00:44  [ main:152 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:00:50  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:00:50  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:00:50  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:00:50  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:00:50  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:00:50  [ main:25 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:00:50  [ main:81 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:00:50  [ main:149 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:00:50  [ main:154 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:00:50  [ main:154 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:00:50  [ main:155 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:00:50  [ main:156 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:02:19  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:02:19  [ main:6 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:02:19  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:02:19  [ main:9 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:02:19  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:02:19  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:02:19  [ main:84 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:02:19  [ main:146 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:02:19  [ main:151 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:02:19  [ main:151 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:02:19  [ main:151 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:02:19  [ main:153 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:02:29  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:02:29  [ main:8 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:02:29  [ main:10 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:02:29  [ main:11 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:02:29  [ main:25 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:02:29  [ main:26 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:02:29  [ main:85 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:02:29  [ main:149 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:02:29  [ main:154 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:02:29  [ main:155 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:02:29  [ main:155 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:02:29  [ main:156 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:02:52  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:02:52  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:02:52  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:02:52  [ main:9 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:02:52  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:02:52  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:02:52  [ main:83 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:02:52  [ main:151 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:02:52  [ main:157 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:02:52  [ main:157 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:02:52  [ main:157 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:02:52  [ main:158 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:04:53  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:04:53  [ main:6 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:04:53  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:04:53  [ main:9 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:04:53  [ main:23 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:04:53  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:04:53  [ main:84 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:04:53  [ main:153 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:04:53  [ main:158 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:04:53  [ main:159 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:04:53  [ main:159 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:04:53  [ main:160 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:08:02  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:08:02  [ main:9 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:08:02  [ main:12 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:08:02  [ main:14 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:08:02  [ main:31 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:08:02  [ main:32 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:08:02  [ main:95 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:08:03  [ main:172 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:08:03  [ main:179 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:08:03  [ main:180 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:08:03  [ main:180 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:08:03  [ main:181 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:11:00  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:11:00  [ main:6 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:11:00  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:11:00  [ main:9 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:11:00  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:11:00  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:11:00  [ main:85 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:11:00  [ main:153 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:11:00  [ main:158 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:11:00  [ main:159 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:11:00  [ main:159 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:11:00  [ main:160 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:12:46  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:12:46  [ main:6 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:12:46  [ main:8 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:12:46  [ main:9 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:12:46  [ main:23 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:12:46  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:12:46  [ main:88 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:12:46  [ main:151 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:12:46  [ main:156 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:12:46  [ main:157 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:12:46  [ main:157 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:12:46  [ main:158 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:16:06  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:16:06  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:16:06  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:16:06  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:16:06  [ main:24 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:16:06  [ main:24 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:16:06  [ main:83 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:16:07  [ main:148 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:16:07  [ main:152 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:16:07  [ main:152 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:16:07  [ main:152 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:16:07  [ main:153 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:20:21  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:20:21  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:20:21  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:20:21  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:20:22  [ main:25 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:20:22  [ main:25 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:20:22  [ main:82 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:20:22  [ main:155 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:20:22  [ main:159 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///qrcode_trace]
+2016-05-17 16:20:22  [ main:160 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:20:22  [ main:160 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:20:22  [ main:162 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:29:24  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:29:24  [ main:9 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:29:24  [ main:11 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:29:24  [ main:13 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:29:24  [ main:29 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:29:24  [ main:30 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:29:24  [ main:101 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:29:24  [ main:197 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:29:24  [ main:202 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 16:29:24  [ main:203 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:29:24  [ main:203 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:29:24  [ main:205 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:35:45  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:35:45  [ main:7 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:35:45  [ main:9 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:35:45  [ main:10 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:35:45  [ main:27 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:35:45  [ main:27 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:35:45  [ main:89 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:35:45  [ main:152 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:35:45  [ main:156 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 16:35:45  [ main:156 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:35:45  [ main:157 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:35:45  [ main:158 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:35:45  [ main:371 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-17 16:35:45  [ main:503 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-17 16:35:45  [ main:506 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-17 16:35:46  [ main:847 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-05-17 16:35:46  [ main:848 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-05-17 16:35:46  [ main:850 ] - [ INFO ]  HHH000396: Updating schema
+2016-05-17 16:35:46  [ main:854 ] - [ INFO ]  HHH000262: Table not found: t_comment
+2016-05-17 16:35:46  [ main:855 ] - [ INFO ]  HHH000262: Table not found: t_company
+2016-05-17 16:35:46  [ main:856 ] - [ INFO ]  HHH000262: Table not found: t_material
+2016-05-17 16:35:46  [ main:858 ] - [ INFO ]  HHH000262: Table not found: t_news
+2016-05-17 16:35:46  [ main:859 ] - [ INFO ]  HHH000262: Table not found: t_process
+2016-05-17 16:35:46  [ main:860 ] - [ INFO ]  HHH000262: Table not found: t_product
+2016-05-17 16:35:46  [ main:861 ] - [ INFO ]  HHH000262: Table not found: t_project
+2016-05-17 16:35:46  [ main:862 ] - [ INFO ]  HHH000262: Table not found: t_sell
+2016-05-17 16:35:46  [ main:863 ] - [ INFO ]  HHH000262: Table not found: t_transport
+2016-05-17 16:35:46  [ main:864 ] - [ INFO ]  HHH000262: Table not found: t_user
+2016-05-17 16:35:46  [ main:865 ] - [ INFO ]  HHH000262: Table not found: t_comment
+2016-05-17 16:35:46  [ main:866 ] - [ INFO ]  HHH000262: Table not found: t_company
+2016-05-17 16:35:46  [ main:867 ] - [ INFO ]  HHH000262: Table not found: t_material
+2016-05-17 16:35:46  [ main:868 ] - [ INFO ]  HHH000262: Table not found: t_news
+2016-05-17 16:35:46  [ main:869 ] - [ INFO ]  HHH000262: Table not found: t_process
+2016-05-17 16:35:46  [ main:870 ] - [ INFO ]  HHH000262: Table not found: t_product
+2016-05-17 16:35:46  [ main:871 ] - [ INFO ]  HHH000262: Table not found: t_project
+2016-05-17 16:35:46  [ main:872 ] - [ INFO ]  HHH000262: Table not found: t_sell
+2016-05-17 16:35:46  [ main:872 ] - [ INFO ]  HHH000262: Table not found: t_transport
+2016-05-17 16:35:46  [ main:873 ] - [ INFO ]  HHH000262: Table not found: t_user
+2016-05-17 16:35:46  [ main:874 ] - [ INFO ]  HHH000262: Table not found: t_comment
+2016-05-17 16:35:46  [ main:875 ] - [ INFO ]  HHH000262: Table not found: t_company
+2016-05-17 16:35:46  [ main:876 ] - [ INFO ]  HHH000262: Table not found: t_material
+2016-05-17 16:35:46  [ main:876 ] - [ INFO ]  HHH000262: Table not found: t_news
+2016-05-17 16:35:46  [ main:877 ] - [ INFO ]  HHH000262: Table not found: t_process
+2016-05-17 16:35:46  [ main:879 ] - [ INFO ]  HHH000262: Table not found: t_product
+2016-05-17 16:35:46  [ main:880 ] - [ INFO ]  HHH000262: Table not found: t_project
+2016-05-17 16:35:46  [ main:880 ] - [ INFO ]  HHH000262: Table not found: t_sell
+2016-05-17 16:35:46  [ main:881 ] - [ INFO ]  HHH000262: Table not found: t_transport
+2016-05-17 16:35:46  [ main:882 ] - [ INFO ]  HHH000262: Table not found: t_user
+2016-05-17 16:35:49  [ main:3600 ] - [ INFO ]  HHH000232: Schema update complete
+2016-05-17 16:35:49  [ main:3654 ] - [ INFO ]  Try to add a product.
+2016-05-17 16:39:34  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-17 16:39:34  [ main:10 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-17 16:39:34  [ main:11 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-17 16:39:34  [ main:12 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-17 16:39:34  [ main:27 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-05-17 16:39:34  [ main:27 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-05-17 16:39:35  [ main:84 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-17 16:39:35  [ main:155 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-05-17 16:39:35  [ main:160 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/qrcode_trace]
+2016-05-17 16:39:35  [ main:160 ] - [ INFO ]  HHH000046: Connection properties: {user=root, password=****}
+2016-05-17 16:39:35  [ main:161 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-17 16:39:35  [ main:162 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-05-17 16:39:35  [ main:374 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-17 16:39:35  [ main:501 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-17 16:39:35  [ main:504 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-17 16:39:35  [ main:850 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-05-17 16:39:35  [ main:851 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-05-17 16:39:35  [ main:853 ] - [ INFO ]  HHH000396: Updating schema
+2016-05-17 16:39:35  [ main:870 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_comment
+2016-05-17 16:39:35  [ main:871 ] - [ INFO ]  HHH000037: Columns: [date, product_id, id, content]
+2016-05-17 16:39:35  [ main:871 ] - [ INFO ]  HHH000108: Foreign keys: [fk_6xd3ec04csqnot2guhbykunj0]
+2016-05-17 16:39:35  [ main:871 ] - [ INFO ]  HHH000126: Indexes: [fk_6xd3ec04csqnot2guhbykunj0, primary]
+2016-05-17 16:39:35  [ main:878 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_company
+2016-05-17 16:39:35  [ main:878 ] - [ INFO ]  HHH000037: Columns: [address, phone, name, id, fax, email, introduction]
+2016-05-17 16:39:35  [ main:879 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-17 16:39:35  [ main:879 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-17 16:39:35  [ main:885 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_material
+2016-05-17 16:39:35  [ main:885 ] - [ INFO ]  HHH000037: Columns: [qulity, animalcule, fertilization, heavy_metal, pesticide, company_name, product_id, medicine, id, nitrate]
+2016-05-17 16:39:35  [ main:886 ] - [ INFO ]  HHH000108: Foreign keys: [fk_3j8m15okbotu6qd3ibnrr42ny]
+2016-05-17 16:39:35  [ main:886 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_3j8m15okbotu6qd3ibnrr42ny]
+2016-05-17 16:39:35  [ main:891 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_news
+2016-05-17 16:39:35  [ main:892 ] - [ INFO ]  HHH000037: Columns: [date, id, title, content]
+2016-05-17 16:39:35  [ main:892 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-17 16:39:35  [ main:892 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-17 16:39:35  [ main:898 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_process
+2016-05-17 16:39:35  [ main:898 ] - [ INFO ]  HHH000037: Columns: [refrigerator_temperature, animalcule, method, company_name, product_id, id, packing, workshop_temperature, storage_time]
+2016-05-17 16:39:35  [ main:898 ] - [ INFO ]  HHH000108: Foreign keys: [fk_ofrgwku1rl2tisk046wa1eywo]
+2016-05-17 16:39:35  [ main:898 ] - [ INFO ]  HHH000126: Indexes: [fk_ofrgwku1rl2tisk046wa1eywo, primary]
+2016-05-17 16:39:35  [ main:904 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_product
+2016-05-17 16:39:35  [ main:904 ] - [ INFO ]  HHH000037: Columns: [name, id, pic]
+2016-05-17 16:39:35  [ main:904 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-17 16:39:35  [ main:905 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-17 16:39:35  [ main:910 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_project
+2016-05-17 16:39:35  [ main:911 ] - [ INFO ]  HHH000037: Columns: [name, id]
+2016-05-17 16:39:35  [ main:911 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-17 16:39:35  [ main:911 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-17 16:39:35  [ main:918 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_sell
+2016-05-17 16:39:35  [ main:918 ] - [ INFO ]  HHH000037: Columns: [disinfection, in_charge_phone, allergy, in_charge_person, purchase_count, logal_person, stock_person, license, nutrition, stock_phone, company_name, examination, product_id, temperature, humidity, id, exam_person, purchase_date]
+2016-05-17 16:39:35  [ main:918 ] - [ INFO ]  HHH000108: Foreign keys: [fk_ricqr45e37wf507c9dq82n6ox]
+2016-05-17 16:39:35  [ main:919 ] - [ INFO ]  HHH000126: Indexes: [fk_ricqr45e37wf507c9dq82n6ox, primary]
+2016-05-17 16:39:35  [ main:926 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_transport
+2016-05-17 16:39:35  [ main:927 ] - [ INFO ]  HHH000037: Columns: [legal_person, arrival_time, disinfection, goods_count, person_in_charge, car_type, phone, company_name, product_id, temperature, humidity, id, goods_type, departure_time, place_from, place_to]
+2016-05-17 16:39:35  [ main:927 ] - [ INFO ]  HHH000108: Foreign keys: [fk_hbhfyypxu1ecu7bn9j20ihf54]
+2016-05-17 16:39:35  [ main:927 ] - [ INFO ]  HHH000126: Indexes: [fk_hbhfyypxu1ecu7bn9j20ihf54, primary]
+2016-05-17 16:39:35  [ main:933 ] - [ INFO ]  HHH000261: Table found: qrcode_trace.t_user
+2016-05-17 16:39:35  [ main:934 ] - [ INFO ]  HHH000037: Columns: [password, address, role, phone, user_name, real_name]
+2016-05-17 16:39:35  [ main:934 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-05-17 16:39:35  [ main:934 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-05-17 16:39:35  [ main:935 ] - [ INFO ]  HHH000232: Schema update complete
+2016-05-17 16:39:35  [ main:995 ] - [ INFO ]  Try to add a product.

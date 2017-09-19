@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<!-- 数据库连接设置 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/qrcode_trace</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		
+		
+		<!-- JDBC连接池 (use the built-in) -->
+		<!-- <property name="connection.pool_size">1</property> -->
+		<property name="hibernate.connection.provider_class">org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</property>
+		<property name="c3p0.c3p0.initialPoolSize">3</property>
+		<property name="hibernate.c3p0.max_size">20</property>
+        <property name="hibernate.c3p0.max_statements">100</property>
+        <property name="hibernate.c3p0.idle_test_period">120</property>
+        <property name="c3p0.validate">true</property>
+        <property name="hibernate.c3p0.acquire_increment">3</property>
+        <property name="c3p0.testConnectionOnCheckout">true</property>
+        <property name="c3p0.idleConnectionTestPeriod">18000</property>
+        <property name="c3p0.maxIdleTime">25000</property>
+        <property name="c3p0.idle_test_period">120</property>
+        
+		<!-- SQL方言 -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+		<!-- 关闭二级缓存 -->
+		<property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+
+		<!-- 打印SQL语句到控制台 -->
+		<property name="show_sql">true</property>
+
+		<!-- 对控制台输出的SQL语句进行排版，便于阅读 -->
+		<property name="format_sql">true</property>
+
+		<!-- 自动生成表结构的策略（create:每次重新构建表，update:保留原数据并更新，create-drop:先创建后删除, validate:先验证再操作，不会创建表 
+			） -->
+		<property name="hbm2ddl.auto">update</property>
+		
+		<!-- 使用currentSession -->
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+
+		<!-- 管理实体类 （使用注解时） -->
+		<mapping class="com.jackdaw.entity.Product" />
+		<mapping class="com.jackdaw.entity.Material" />
+		<mapping class="com.jackdaw.entity.Process" />
+		<mapping class="com.jackdaw.entity.Transport" />
+		<mapping class="com.jackdaw.entity.Sell" />
+		<mapping class="com.jackdaw.entity.Company" />
+		<mapping class="com.jackdaw.entity.User" />
+		<mapping class="com.jackdaw.entity.News" />
+		<mapping class="com.jackdaw.entity.Comment" />
+		<mapping class="com.jackdaw.entity.Project" />
+
+	</session-factory>
+
+</hibernate-configuration>
